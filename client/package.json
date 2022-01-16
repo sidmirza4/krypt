@@ -2,17 +2,19 @@
 	"name": "krypt",
 	"version": "0.0.0",
 	"scripts": {
+		"start": "react-scripts start",
 		"lint": "eslint \"src/**/*.{js,jsx}\"",
 		"lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix",
 		"dev": "vite",
-		"build": "vite build",
+		"build": "react-scripts build",
 		"preview": "vite preview"
 	},
 	"dependencies": {
 		"ethers": "^5.5.3",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"react-icons": "^4.3.1"
+		"react-icons": "^4.3.1",
+		"react-scripts": "^5.0.0"
 	},
 	"devDependencies": {
 		"@tailwindcss/forms": "^0.4.0",
