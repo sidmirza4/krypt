@@ -7,3 +7,4 @@ This website is made using following technologies:
 - Hardhat
 - EthersJS
 - Tailwind
+- Alchemy
